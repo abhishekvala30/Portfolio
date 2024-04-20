@@ -21,7 +21,7 @@ const seo = {
 const greeting = {
   title: "Abhishek Vala",
   logo_name: "AbhishekVala",
-  nickname: "layman_brother",
+  nickname: "",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
@@ -162,20 +162,6 @@ const skills = {
           },
         },
         {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
           skillName: "MongoDB",
           fontAwesomeClassname: "simple-icons:mongodb",
           style: {
@@ -205,52 +191,36 @@ const skills = {
 const competitiveSites = {
   competitiveSites: [
     {
-      siteName: "LeetCode",
-      iconifyClassname: "simple-icons:leetcode",
+      siteName: "Kubernetes",
+      iconifyClassname: "simple-icons:kubernetes",
       style: {
-        color: "#F79F1B",
+        color: "#326CE5",
       },
-      profileLink: "https://leetcode.com/layman_brother/",
+      profileLink: "",
     },
     {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
+      siteName: "AWS",
+      iconifyClassname: "simple-icons:amazonaws",
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/layman_brother",
+      profileLink: "",
     },
     {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
+      siteName: "Docker",
+      iconifyClassname: "simple-icons:docker",
       style: {
         color: "#5B4638",
       },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
+      profileLink: "",
     },
     {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
+      siteName: "Azure",
+      iconifyClassname: "simple-icons:microsoftazure",
       style: {
         color: "#1F8ACB",
       },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
+      profileLink: "",
     },
   ],
 };
@@ -277,7 +247,7 @@ const certifications = {
     {
       title: "Certified Kubernetes Administartor",
       subtitle: "- CNCF",
-      logo_path: "stanford_logo.png",
+      logo_path: "simple-icons:kubernetes",
       certificate_link:
         "https://www.credly.com/badges/e198901e-e533-4c83-81ba-01d05d65c94d/public_url",
       alt_name: "CKA",
@@ -286,7 +256,7 @@ const certifications = {
     {
       title: "AWS Solution Architect - Associate",
       subtitle: "- AWS",
-      logo_path: "deeplearning_ai_logo.png",
+      logo_path: "simple-icons:amazonaws",
       certificate_link:
         "https://www.credly.com/badges/babb94cd-0b36-4a8c-9d72-151718a0012f/public_url",
       alt_name: "SAA",
@@ -295,7 +265,7 @@ const certifications = {
     {
       title: "AWS Cloud Practitioner",
       subtitle: "- AWS",
-      logo_path: "google_logo.png",
+      logo_path: "simple-icons:amazonaws",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
       alt_name: "CCP",
@@ -320,7 +290,7 @@ const experience = {
           title: "Site Reliability Engineer",
           company: "Panamax Inc.",
           company_url: "https://www.panamaxil.com/",
-          logo_path: "tiktok_logo.png",
+          logo_path: "",
           duration: "Jan 2023 - Present",
           location: "Ahmedabad, Gujarat, India",
           description:
@@ -331,7 +301,7 @@ const experience = {
           title: "Implementation Engineer",
           company: "Mindarray Systems Pvt. Ltd",
           company_url: "https://www.motadata.com/",
-          logo_path: "legato_logo.png",
+          logo_path: "",
           duration: "Oct 2021 - Jan 2023",
           location: "Ahmedabad, Gujarat, India",
           description:
@@ -342,7 +312,7 @@ const experience = {
           title: "Network Engineer",
           company: "Yudiz Solutions",
           company_url: "https://www.yudiz.com/",
-          logo_path: "muffito_logo.png",
+          logo_path: "",
           duration: "Dec 2020 - Oct 2021",
           location: "Ahmedabad, Gujarat, India",
           description:
@@ -358,7 +328,7 @@ const experience = {
           title: "Cyber Security Intern",
           company: "Azure Skynet Solutions Pvt. Ltd",
           company_url: "https://www.azureskynet.com/",
-          logo_path: "tiktok_logo.png",
+          logo_path: "",
           duration: "Jun 2019 - Jul 2019",
           location: "Gurgaon, Haryana, India",
           description:
@@ -374,7 +344,7 @@ const experience = {
           title: "Student Volunteer",
           company: "ASME",
           company_url: "https://www.asme.org/",
-          logo_path: "google_logo.png",
+          logo_path: "",
           duration: "Jan 2019",
           location: "Rajkot, Gujarat, India",
           description: "",
@@ -384,7 +354,7 @@ const experience = {
           title: "MU Fest Coordinator",
           company: "Marwadi University",
           company_url: "https://www.marwadiuniversity.ac.in/",
-          logo_path: "microsoft_logo.png",
+          logo_path: "",
           duration: "Feb 2019",
           location: "Rajkot, Gujarat, India",
           description: "",
